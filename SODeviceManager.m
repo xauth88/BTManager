@@ -46,12 +46,6 @@ SODeviceManager *sharedManager;
             sharedManager.discoveredPeripherals = [[NSMutableDictionary alloc]initWithDictionary:@{}];
             sharedManager.connectionTimeoutInSeconds = [NSNumber numberWithDouble:20];
             sharedManager.btManager = [[SOBTManager alloc]initWithDelegate:sharedManager];
-            
-            NSLog(@"#######################################################");
-            NSLog(@"############# Licensed to Turk Cell ###################");
-            NSLog(@"#######################################################");
-            printf("\n");
-            
         }
     }
     return sharedManager;
